@@ -7,6 +7,8 @@ $NIM = $_POST["NIM"];
 }
 ?>
 <form method="POST" action="<?php ($_SERVER["PHP_SELF"]);?>">
+<p>Muhammad Iqbal</p>
+<p>1500018007</p>
 Nama: <input type="text" name="nama"><br>
 NIM: <input type="number" name="NIM" min="1000000000"><br>
 <input type="submit">
